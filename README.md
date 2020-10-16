@@ -10,4 +10,9 @@ Nodemcu Simple Agriculture Soil Sensor
 # Software Used
 - Arduino IDE
 - MQTT Server
-- Node Red
+- Node-Red
+=======
+
+
+# Software to use
+Arduino IDE
