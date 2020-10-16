@@ -76,7 +76,7 @@ void loop() {
 
   now=millis();
   //check timer for 3 second
-  if(now - lastMeasure >10000){
+  if(now - lastMeasure >3000){
     humid=dht.readHumidity();
     temp=dht.readTemperature();
     moisture=(100.00-((analogRead(soil_sensor)/1023.00)*100.00));
